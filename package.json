@@ -1,0 +1,47 @@
+{
+  "name": "theme-neo",
+  "version": "1.0.0",
+  "displayName": "Neo Theme",
+  "description": "A simple opinionated VS Code theme for JavaScript",
+  "publisher": "palashmon",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "icon": "images/icon.png",
+  "keywords": [
+    "Neo",
+    "Themes",
+    "dark",
+    "BlueLover",
+    "simple"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/palashmon/neo-vscode-theme"
+  },
+  "galleryBanner": {
+    "color": "#0d2136",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neo-vscode-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "start": "nodemon --exec vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "vsce": "^1.42.0"
+  }
+}
