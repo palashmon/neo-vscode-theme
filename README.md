@@ -2,7 +2,7 @@
 
 A simple opinionated VS Code theme for JavaScript inspired by ColorSublime BlueLover theme. I worked on this theme since I like blueish dark background and needed a small colour palette to avoid visual overload and focus on my coding :relaxed:
 
-![Preview](images/screenshot.png)
+![Preview](https://raw.githubusercontent.com/palashmon/neo-vscode-theme/master/images/screenshot.png)
 
 # Installation
 
