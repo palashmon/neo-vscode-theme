@@ -551,6 +551,20 @@
       "settings": {
         "foreground": "#59ABE3"
       }
+    },
+    {
+      "name": "HTML Entity",
+      "scope": ["text.html.basic"],
+      "settings": {
+        "foreground": "#C5EFF7"
+      }
+    },
+    {
+      "name": "HTML tag",
+      "scope": ["text.html.basic punctuation.definition.tag", "text.html.basic meta.tag.inline.any"],
+      "settings": {
+        "foreground": "#52B3D9"
+      }
     }
   ]
 }
