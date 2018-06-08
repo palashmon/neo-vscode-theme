@@ -385,10 +385,21 @@
       }
     },
     {
-      "name": "JSON String",
-      "scope": "meta.structure.dictionary.json string.quoted.double.json",
+      "name": "JSON Key",
+      "scope": "source.json support.type",
       "settings": {
-        "foreground": "#CFCFC2"
+        "foreground": "#52B3D9"
+      }
+    },
+    {
+      "name": "JSON String",
+      "scope": [
+        "source.json string.quoted.double.json",
+        "source.json constant.language",
+        "source.json constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#C5EFF7"
       }
     },
     {
@@ -525,6 +536,13 @@
       "scope": "source.vue meta.object-literal.key",
       "settings": {
         "foreground": "#22A7F0"
+      }
+    },
+    {
+      "name": "vue array.literal key",
+      "scope": "source.vue meta.array.literal meta.object-literal.key",
+      "settings": {
+        "foreground": "#59ABE3"
       }
     },
     {
