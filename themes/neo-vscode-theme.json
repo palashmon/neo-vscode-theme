@@ -249,7 +249,7 @@
       "name": "Built-in constant",
       "scope": "constant.language",
       "settings": {
-        "foreground": "#e9ee00"
+        "foreground": "#FFDEAD"
       }
     },
     {
@@ -325,7 +325,7 @@
       "scope": "entity.name.tag",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FFFFFF"
+        "foreground": "#52B3D9"
       }
     },
     {
@@ -511,6 +511,27 @@
       "scope": "meta.constructor.argument.css",
       "settings": {
         "foreground": "#EB939A"
+      }
+    },
+    {
+      "name": "vue variable",
+      "scope": "source.vue variable",
+      "settings": {
+        "foreground": "#C5EFF7"
+      }
+    },
+    {
+      "name": "vue object-literal key",
+      "scope": "source.vue meta.object-literal.key",
+      "settings": {
+        "foreground": "#22A7F0"
+      }
+    },
+    {
+      "name": "vue array.literal key",
+      "scope": "source.vue meta.array.literal meta.object-literal.key",
+      "settings": {
+        "foreground": "#59ABE3"
       }
     }
   ]
