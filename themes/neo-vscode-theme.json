@@ -433,9 +433,9 @@
     },
     {
       "name": "css tag-name",
-      "scope": "meta.selector.css entity.name.tag",
+      "scope": ["source.css entity.name.tag", "source.stylus entity.name.tag"],
       "settings": {
-        "foreground": "#d35924"
+        "foreground": "#DB9869"
       }
     },
     {
@@ -453,20 +453,43 @@
       }
     },
     {
-      "name": "css property-name:",
-      "scope": "support.type.property-name.css",
+      "name": "css support",
+      "scope": ["source.css support", "source.stylus support"],
       "settings": {
-        "foreground": "#216BA7"
+        "foreground": "#83BEFE"
       }
     },
     {
-      "name": "css property-value;",
+      "name": "css support function",
+      "scope": ["source.css support.function", "source.stylus support.function"],
+      "settings": {
+        "foreground": "#7A9BC2"
+      }
+    },
+    {
+      "name": "css constant",
       "scope": [
-        "meta.property-group support.constant.property-value.css",
-        "meta.property-value support.constant.property-value.css"
+        "source.css constant",
+        "source.css support.constant",
+        "source.css constant.other",
+        "source.stylus constant",
+        "source.stylus support.constant",
+        "source.stylus constant.other"
       ],
       "settings": {
-        "foreground": "#0694e7"
+        "foreground": "#B5CEA8"
+      }
+    },
+    {
+      "name": "css numeric & keyword",
+      "scope": [
+        "source.css keyword",
+        "source.css constant.numeric",
+        "source.stylus keyword",
+        "source.stylus constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#7A9BC2"
       }
     },
     {
