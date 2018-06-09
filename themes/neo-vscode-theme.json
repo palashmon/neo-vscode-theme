@@ -228,28 +228,21 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#5274B3"
+        "foreground": "#2574A9"
       }
     },
     {
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#65E6B8"
+        "foreground": "#3DD19F"
       }
     },
     {
-      "name": "Number",
-      "scope": "constant.numeric",
+      "name": "Number & constant",
+      "scope": ["constant.numeric", "constant.language"],
       "settings": {
-        "foreground": "#ffcc41"
-      }
-    },
-    {
-      "name": "Built-in constant",
-      "scope": "constant.language",
-      "settings": {
-        "foreground": "#FFDEAD"
+        "foreground": "#D2D7D3"
       }
     },
     {
@@ -267,10 +260,17 @@
       }
     },
     {
-      "name": "Keyword",
-      "scope": "keyword",
+      "name": "Variable other",
+      "scope": "variable.other.property",
       "settings": {
-        "foreground": "#a3c1e8"
+        "foreground": "#A2DED0"
+      }
+    },
+    {
+      "name": "Variable other object",
+      "scope": "variable.other.object.property",
+      "settings": {
+        "foreground": "#B0DFE5"
       }
     },
     {
@@ -283,10 +283,9 @@
     },
     {
       "name": "Storage type",
-      "scope": "storage.type",
+      "scope": ["storage.type", "keyword", "support.class.console", "variable.language.super"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#36AAF1"
+        "foreground": "#2574A9"
       }
     },
     {
@@ -300,16 +299,15 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "italic ",
-        "foreground": "#95CC5E"
+        "fontStyle": "italic",
+        "foreground": "#bbd0efff"
       }
     },
     {
       "name": "Function name",
-      "scope": "entity.name.function",
+      "scope": ["entity.name.function", "keyword.control.flow", "support.function.console"],
       "settings": {
-        "fontStyle": "",
-        "foreground": "#effbff"
+        "foreground": "#52B3D9"
       }
     },
     {
@@ -317,7 +315,7 @@
       "scope": "variable.parameter",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#95CC5E"
+        "foreground": "#E4F1FE"
       }
     },
     {
