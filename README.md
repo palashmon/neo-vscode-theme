@@ -1,6 +1,9 @@
 # Neo VS Code Theme
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/palashmon.theme-neo.svg)](https://marketplace.visualstudio.com/items?itemName=palashmon.theme-neo)
+[![Version][vs-version]][palashmon.theme-neo]
+[![VS Code Verson][vs-code-version]][vs-code-update]
+[![Visual Studio Marketplace Installs][vs-installs]][palashmon.theme-neo]
+<!-- [![Visual Studio Marketplace Ratings][vs-ratings]][palashmon.theme-neo-r] -->
 
 A simple opinionated VS Code theme for JavaScript inspired by ColorSublime BlueLover theme. I worked on this theme since I like blueish dark background and needed a small colour palette to avoid visual overload and focus on my coding :relaxed:
 
@@ -58,3 +61,12 @@ Pull requests to fix any issues that adhere to the theme's JS look and feel are 
 ## License
 
 MIT
+
+<!-- Links here -->
+[vs-version]: https://vsmarketplacebadge.apphb.com/version/palashmon.theme-neo.svg
+[vs-installs]: https://img.shields.io/vscode-marketplace/d/palashmon.theme-neo.svg
+[vs-ratings]: https://img.shields.io/vscode-marketplace/r/palashmon.theme-neo.svg
+[vs-code-version]: https://img.shields.io/badge/VS_Code-v1.22+-2574A9.svg
+[vs-code-update]: https://code.visualstudio.com/updates/v1_22
+[palashmon.theme-neo]: https://marketplace.visualstudio.com/items?itemName=palashmon.theme-neo
+[palashmon.theme-neo-r]: https://marketplace.visualstudio.com/items?itemName=palashmon.theme-neo#review-details
