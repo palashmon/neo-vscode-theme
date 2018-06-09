@@ -563,6 +563,67 @@
       "settings": {
         "foreground": "#52B3D9"
       }
+    },{
+      "name": "Markdown - Heading Name Section",
+      "scope": [
+        "entity.name.section.markdown",
+        "markup.heading.setext.1.markdown",
+        "markup.heading.setext.2.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#52B3D9"
+      }
+    },
+    {
+      "name": "Markdown - Heading Punctuation",
+      "scope": [
+        "punctuation.definition.heading.markdown",
+        "markup.quote.markdown"
+      ],
+      "settings": {
+        "foreground": "#52B3D9"
+      }
+    },
+    {
+      "name": "Markdown - Link Address",
+      "scope": [
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown"
+      ],
+      "settings": {
+        "foreground": "#81CFE0"
+      }
+    },
+    {
+      "name": "Markdown - Paragraph",
+      "scope": "meta.paragraph.markdown",
+      "settings": {
+        "foreground": "#C5EFF7"
+      }
+    },
+    {
+      "name": "Markdown - Quote Paragraph",
+      "scope": "markup.quote.markdown meta.paragraph.markdown",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#52B3D9"
+      }
+    },
+    {
+      "name": "Markdown - Emphasis Bold",
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#52B3D9"
+      }
+    },
+    {
+      "name": "Markdown - Emphasis Italic",
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "fontStyle": "italic"
+      }
     }
   ]
 }
