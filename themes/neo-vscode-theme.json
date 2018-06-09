@@ -563,7 +563,8 @@
       "settings": {
         "foreground": "#52B3D9"
       }
-    },{
+    },
+    {
       "name": "Markdown - Heading Name Section",
       "scope": [
         "entity.name.section.markdown",
@@ -577,20 +578,14 @@
     },
     {
       "name": "Markdown - Heading Punctuation",
-      "scope": [
-        "punctuation.definition.heading.markdown",
-        "markup.quote.markdown"
-      ],
+      "scope": ["punctuation.definition.heading.markdown", "markup.quote.markdown"],
       "settings": {
         "foreground": "#52B3D9"
       }
     },
     {
       "name": "Markdown - Link Address",
-      "scope": [
-        "markup.underline.link.markdown",
-        "markup.underline.link.image.markdown"
-      ],
+      "scope": ["markup.underline.link.markdown", "markup.underline.link.image.markdown"],
       "settings": {
         "foreground": "#81CFE0"
       }
@@ -623,6 +618,28 @@
       "scope": "markup.italic.markdown",
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "INI - Entity",
+      "scope": "source.ini entity",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#52B3D9"
+      }
+    },
+    {
+      "name": "INI - Keyword",
+      "scope": "source.ini keyword",
+      "settings": {
+        "foreground": "#52B3D9"
+      }
+    },
+    {
+      "name": "INI - Separator",
+      "scope": "source.ini punctuation.separator",
+      "settings": {
+        "foreground": "#C5EFF7"
       }
     }
   ]
