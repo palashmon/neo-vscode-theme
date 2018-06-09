@@ -52,6 +52,12 @@ These are the things we have control over. If you would like to change something
 - [Testing your modified](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers#_test-a-new-color-theme) color theme.
 - You can clone this repository to your [`.vscode/extensions/`](https://code.visualstudio.com/docs/extensions/yocode#_your-extensions-folder) folder and then follow the steps above for testing your modified version.
 
+## Contributors
+[<img alt="palashmon" src="https://avatars0.githubusercontent.com/u/14850464?v=4&s=117" width="117">](https://github.com/palashmon) |
+<img alt="palashmon" src="https://avatars0.githubusercontent.com/u/41335?v=4&s=117" width="117"> |
+:---: |:---: |
+[palashmon](https://github.com/palashmon) | your name
+
 ## Credits
 
 This theme is inspired by ColorSublime [BlueLover](https://colorsublime.github.io/themes/BlueLover/) theme. I ended up changing some colors and their mappings quite significantly.
