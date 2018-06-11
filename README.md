@@ -3,6 +3,7 @@
 [![Version][vs-version]][palashmon.theme-neo]
 [![VS Code Verson][vs-code-version]][vs-code-update]
 [![Visual Studio Marketplace Installs][vs-installs]][palashmon.theme-neo]
+
 <!-- [![Visual Studio Marketplace Ratings][vs-ratings]][palashmon.theme-neo-r] -->
 
 A simple opinionated VS Code theme for JavaScript inspired by ColorSublime BlueLover theme. I worked on this theme since I like blueish dark background and needed a small colour palette to avoid visual overload and focus on my coding :relaxed:
@@ -20,7 +21,7 @@ A simple opinionated VS Code theme for JavaScript inspired by ColorSublime BlueL
 
 ## Recommended Settings
 
-```js
+```json
 {
   "workbench.colorTheme": "Neo",
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
@@ -29,10 +30,10 @@ A simple opinionated VS Code theme for JavaScript inspired by ColorSublime BlueL
   "editor.cursorWidth": 3,
   "editor.detectIndentation": false,
   "editor.fontLigatures": true,
-  "editor.fontSize": 17,
+  "editor.fontSize": 18,
   "editor.hideCursorInOverviewRuler": true,
   "editor.letterSpacing": 0.5,
-  "editor.lineHeight": 25,
+  "editor.lineHeight": 26,
   "editor.minimap.enabled": false,
   "editor.occurrencesHighlight": false,
   "editor.renderIndentGuides": false,
@@ -53,6 +54,7 @@ These are the things we have control over. If you would like to change something
 - You can clone this repository to your [`.vscode/extensions/`](https://code.visualstudio.com/docs/extensions/yocode#_your-extensions-folder) folder and then follow the steps above for testing your modified version.
 
 ## Contributors
+
 [<img alt="palashmon" src="https://avatars0.githubusercontent.com/u/14850464?v=4&s=117" width="117">](https://github.com/palashmon) |
 <img alt="palashmon" src="https://avatars0.githubusercontent.com/u/41335?v=4&s=117" width="117"> |
 :---: |:---: |
@@ -69,6 +71,7 @@ Pull requests to fix any issues that adhere to the theme's JS look and feel are 
 MIT
 
 <!-- Links here -->
+
 [vs-version]: https://vsmarketplacebadge.apphb.com/version/palashmon.theme-neo.svg
 [vs-installs]: https://img.shields.io/vscode-marketplace/d/palashmon.theme-neo.svg
 [vs-ratings]: https://img.shields.io/vscode-marketplace/r/palashmon.theme-neo.svg
