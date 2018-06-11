@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2018-06-11
+
+### Added
+
+- A `demos` directory with examples of all of a whole slew of different languages for testing different file types and maintenance.
+
+### Changed
+
+- Updated theme with more accessible color palettes. Lots of modifications done.
+- Updated theme image & readme.
+
 ## [1.0.6] - 2018-06-09
 
 ### Added
