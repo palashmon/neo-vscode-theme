@@ -1,8 +1,9 @@
 # Neo VS Code Theme
 
-[![Version][vs-version]][palashmon.theme-neo]
-[![VS Code Verson][vs-code-version]][vs-code-update]
-[![Visual Studio Marketplace Installs][vs-installs]][palashmon.theme-neo]
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/palashmon.theme-neo?label=Version)][palashmon.theme-neo]
+[![VS Code Version][vs-code-version]][vs-code-update]
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/palashmon.theme-neo?label=Downloads)
+[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/palashmon.theme-neo?label=Ratings)][palashmon.theme-neo-r]
 
 <!-- [![Visual Studio Marketplace Ratings][vs-ratings]][palashmon.theme-neo-r] -->
 
@@ -55,10 +56,9 @@ These are the things we have control over. If you would like to change something
 
 ## Contributors
 
-[<img alt="palashmon" src="https://avatars0.githubusercontent.com/u/14850464?v=4&s=117" width="117">](https://github.com/palashmon) |
-<img alt="palashmon" src="https://avatars0.githubusercontent.com/u/41335?v=4&s=117" width="117"> |
+[<img alt="palashmon" src="https://avatars0.githubusercontent.com/u/14850464?v=4&s=90" width="90">](https://github.com/palashmon) | <img alt="palashmon" src="https://avatars0.githubusercontent.com/u/41335?v=4&s=90" width="90"> |
 :---: |:---: |
-[palashmon](https://github.com/palashmon) | your name
+[palashmon](https://github.com/palashmon) | your name |
 
 ## Credits
 
@@ -78,4 +78,4 @@ MIT
 [vs-code-version]: https://img.shields.io/badge/VS_Code-v1.22+-2574A9.svg
 [vs-code-update]: https://code.visualstudio.com/updates/v1_22
 [palashmon.theme-neo]: https://marketplace.visualstudio.com/items?itemName=palashmon.theme-neo
-[palashmon.theme-neo-r]: https://marketplace.visualstudio.com/items?itemName=palashmon.theme-neo#review-details
+[palashmon.theme-neo-r]: https://marketplace.visualstudio.com/items?itemName=palashmon.theme-neo&ssr=false#review-details
